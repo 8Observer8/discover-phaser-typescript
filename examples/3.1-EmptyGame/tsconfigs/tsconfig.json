@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": true,
+        "outDir": "../public/js",
+        "types": [
+            "requirejs", "phaser"
+        ]
+    },
+    "include": [
+        "../src/client/**/*.ts"
+    ]
+}
