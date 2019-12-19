@@ -1,7 +1,7 @@
 requirejs.config({
     baseUrl: "js",
     paths: {
-        "Phaser": "https://cdnjs.cloudflare.com/ajax/libs/phaser/3.19.0/phaser.min"
+        "Phaser": "https://cdnjs.cloudflare.com/ajax/libs/phaser/3.21.0/phaser.min"
     }
 });
 
