@@ -31,6 +31,9 @@ export default class MainScene extends Phaser.Scene
         // this.cameras.main.setBackgroundColor("#3498db");
 
         this._player = this.add.sprite(this.cameras.main.centerX, this.cameras.main.centerY, "player");
+        console.log(this._player.originX); // Default: 0.5
+        console.log(this._player.originY); // Default: 0.5
+        // this._player.setOrigin(0.5, 0.5);
     }
 
     public update(): void

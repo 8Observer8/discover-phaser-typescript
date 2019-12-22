@@ -32,7 +32,9 @@ define(["require", "exports", "Phaser"], function (require, exports, Phaser) {
             // this.cameras.main.backgroundColor = Phaser.Display.Color.HexStringToColor("#3498db");
             // this.cameras.main.backgroundColor.setTo(52, 152, 219);
             // this.cameras.main.setBackgroundColor("#3498db");
-            this._player = this.add.sprite(250, 170, "player");
+            this._player = this.add.sprite(this.cameras.main.centerX, this.cameras.main.centerY, "player");
+            console.log(this._player.originX);
+            console.log(this._player.originY);
         };
         MainScene.prototype.update = function () {
             // This method is called 60 times per second
